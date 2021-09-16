@@ -1,0 +1,17 @@
+cd Desktop/GitRepos
+git clone https://github.com/Kristaneumann/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice
+vim group_members.txt
+ESC :wq
+git add group_members.txt
+git status
+git commit -m "create txt file"
+git push
+git status
+git pull
+git checkout -b "Krista_branch"
+vim "commands.txt"
+ESC :wq
+git add commands.txt
+get commit -m "Krista commands"
+git push --set-upstream origin Krista_branch
