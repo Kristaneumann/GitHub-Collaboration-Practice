@@ -1,0 +1,17 @@
+vim group_members txt
+esc: wq 
+git add group_members.txt
+git status
+git commit
+git push
+git status
+git pull
+git checkout -b "Project_branch"
+vim "text.txt"
+ESC :wq
+git add commands.tx
+get comit -m "commands"
+git push --set -upstream origin Project_branch
+
+
+
