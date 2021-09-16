@@ -13,5 +13,5 @@ git checkout -b "Krista_branch"
 vim "commands.txt"
 ESC :wq
 git add commands.txt
-get commit -m "Krista commands"
+git commit -m "Krista commands"
 git push --set-upstream origin Krista_branch
