@@ -1,22 +1,19 @@
-Summary of commands
+*Summary of commands*
 
-cd
-C:\Users\laura\OneDrive\Documents\PhD\2. Coursework\3. Fall 2021\SOCIOL 273L\5. Labs\GitHub
-
+cd C:\Users\laura\OneDrive\Documents\PhD\2. Coursework\3. Fall 2021\SOCIOL 273L\5. Labs\GitHub
 git clone https://github.com/Kristaneumann/GitHub-Collaboration-Practice.git
-
 cd GitHub-Collaboration-Practice
-
 git checkout -b laura_updates
-
 ls
 
 VIM group_members.txt
-
 Esc : w q
-
 git add group_members.txt
-
 git commit -m "Laura made updates to add her degree program"
-
 git push --set upstream origin laura_updates
+
+VIM "commands_summary.txt"
+ESC :wq
+git add commands_summary.txt
+git commit -m "Laura updated commands summary"
+git push --set-upstream origin laura_updates
